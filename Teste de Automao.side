@@ -1,0 +1,182 @@
+{
+  "id": "c8257df6-2abd-4e9a-9cc8-7e0c1293c987",
+  "version": "2.0",
+  "name": "Teste de Automação",
+  "url": "https://fecaf.brightspace.com/d2l/login",
+  "tests": [{
+    "id": "260310b6-a1fc-4858-ad13-f96cc34bfcba",
+    "name": "Teste Formulário",
+    "commands": [{
+      "id": "751ff1c8-75b4-40b3-b569-195d5bdb4314",
+      "comment": "",
+      "command": "open",
+      "target": "https://docs.google.com/forms/d/e/1FAIpQLSc-dWeg1-vKNjXEvJHsyM3iRN2lOipKSPxFH1q-mTLmAe_ghw/viewform",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17bb2732-56dc-4bbb-97ef-bebc4f666c2d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d79ee4c9-60a0-46af-a584-775385f30b40",
+      "comment": "",
+      "command": "click",
+      "target": "css=#i5 .AB7Lab",
+      "targets": [
+        ["css=#i5 .AB7Lab", "css:finder"],
+        ["xpath=//div[@id='i5']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbb9910f-2098-46d6-bae5-1abc40d0b47d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#i21 .AB7Lab",
+      "targets": [
+        ["css=#i21 .AB7Lab", "css:finder"],
+        ["xpath=//div[@id='i21']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/span/div/div/label/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d6519ed-a441-4cdb-9491-074aa30c4426",
+      "comment": "",
+      "command": "click",
+      "target": "css=#i37 .AB7Lab",
+      "targets": [
+        ["css=#i37 .AB7Lab", "css:finder"],
+        ["xpath=//div[@id='i37']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/span/div/div/label/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "905a4155-f7fb-43d7-89b4-eeafb1e64b46",
+      "comment": "",
+      "command": "click",
+      "target": "css=#i53 .AB7Lab",
+      "targets": [
+        ["css=#i53 .AB7Lab", "css:finder"],
+        ["xpath=//div[@id='i53']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/div/div/span/div/div/label/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d07ce9d-e2c6-4dc7-8cd1-1127fc5aa06d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#i69 .AB7Lab",
+      "targets": [
+        ["css=#i69 .AB7Lab", "css:finder"],
+        ["xpath=//div[@id='i69']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/div/div/span/div/div/label/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3787f65e-a5ad-4b37-bf7e-c42ca4e50ce2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Y5sE8d .NPEfkd",
+      "targets": [
+        ["css=.Y5sE8d .NPEfkd", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div[2]/div/div[3]/div/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c9119f6d-a906-4133-b564-f2c733b94070",
+    "name": "Teste Login",
+    "commands": [{
+      "id": "cf0e88da-183a-41f7-8f37-d931d9708abf",
+      "comment": "",
+      "command": "open",
+      "target": "https://fecaf.brightspace.com/d2l/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3655d05-5cb0-41ef-8417-b3b66e631082",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76309dfc-f4d4-4a27-8061-8cd8bc85b57a",
+      "comment": "",
+      "command": "click",
+      "target": "id=userName",
+      "targets": [
+        ["id=userName", "id"],
+        ["name=userName", "name"],
+        ["css=#userName", "css:finder"],
+        ["xpath=//input[@id='userName']", "xpath:attributes"],
+        ["xpath=//form[@id='formId']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "175bfe58-619e-4a7f-9458-4c2352061017",
+      "comment": "",
+      "command": "type",
+      "target": "id=userName",
+      "targets": [
+        ["id=userName", "id"],
+        ["name=userName", "name"],
+        ["css=#userName", "css:finder"],
+        ["xpath=//input[@id='userName']", "xpath:attributes"],
+        ["xpath=//form[@id='formId']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "32173"
+    }, {
+      "id": "69120b8a-949a-4ace-b578-033d7a824477",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='formId']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "21042003"
+    }, {
+      "id": "79c255cb-51b0-406f-af2b-3fb881ed27ee",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='formId']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2e7e8842-ec29-433e-9c54-1861fe060305",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0d93e150-b2fa-439e-a688-431eb11338e4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://forms.gle/S9dAJ6EZxrkrSsLL7", "https://fecaf.brightspace.com/d2l/login"],
+  "plugins": []
+}
