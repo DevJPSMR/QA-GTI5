@@ -1,12 +1,3 @@
-import pytest
-from main import soma
-def test_soma():
-assert soma(2, 3) == 5
-7. Criar Arquivo de Requisitos: no terminal, crie um arquivo requirements.txt:
-pytest
-8. Configurar o GitHub Actions: dentro da pasta do projeto, crie uma pasta:
-.github/workflows
-9. Dentro dela, crie um arquivo python-ci.yml para configurar o GitHub Actions:
 name: Python CI
 on:
 push:
