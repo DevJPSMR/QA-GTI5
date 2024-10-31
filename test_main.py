@@ -1,5 +1,4 @@
 import pytest
-from main import soma
-
+from main.py import soma
 def test_soma():
-    assert soma(2, 3) == 5
+assert soma(2, 3) == 5
